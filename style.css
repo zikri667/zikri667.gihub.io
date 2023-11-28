@@ -1,0 +1,52 @@
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .love-animation {
+    animation: loveAnimation 2s infinite;
+  }
+  
+  .cartoon-animation {
+    animation: cartoonAnimation 4s infinite;
+  }
+  
+  @keyframes loveAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  @keyframes cartoonAnimation {
+    0% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(100px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
